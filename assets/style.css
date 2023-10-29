@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+/* Reset default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Centralizing content */
+h1,
+textarea,
+p,
+label,
+input[type="text"],
+button,
+#output {
+    width: 80%;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+/* General page styles */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+label {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7000d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7000d9;
+}
+
+#output {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#output[readonly] {
+    background-color: #f0f0f0;
+    border: none;
+}
+
+h1 {
+    background-color: #7000d9;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-radius: 5px;
+}

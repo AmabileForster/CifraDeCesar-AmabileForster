@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar's Cipher</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <h1>Caesar's Cipher</h1>
+
+    <textarea id="enterPhrase" placeholder="Enter your phrase"></textarea>
+
+    <p>Choose the option:</p>
+
+    <label>
+        <input type="radio" name="operation" value="encrypt"> Encrypt
+    </label>
+    <label>
+        <input type="radio" name="operation" value="decrypt"> Decrypt
+    </label>
+    <input type="text" id="key" placeholder="Key (number or letter)">
+
+    <button id="execute">Execute</button>
+
+    <textarea id="output" placeholder="Result" readonly></textarea>
+
+    <script src="/assets/script.js"></script>
+</body>
+</html> 
